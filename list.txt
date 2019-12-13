@@ -1,0 +1,193 @@
+List of Computer Science Exam topics
+
+
+Formal Languages & Automata Theory
+
+1. Define regular languages. Give an example.
+2. Define regular expressions. Give an example.
+3. Define context free languages. Give an example.
+4. Define context sensitive languages. Give an example.
+5. What is Turing machine and what can it compute?
+6. What is BNF? Give an example.
+7. What is a push-down automata? What languages does it recognize?
+8. What is a finite state automata? What languages does it recognize?
+9. What is a language? What is a garammer?
+10. What is a non-deterministic finite state automata?
+11. Minimize the number of states in the following finite state automata.
+12. What are the differences between a finite state machine and a Turing
+Machine?
+13.  What kind of machine recognizes Regular Languages?
+14. What is the difference between a deterministic and non-deterministic
+automata? Give an example.
+15. What does a state diagram mean in theory?
+16. What triggers a state transitions?
+17. What question about strings does an automata answer?
+18. (FSA on board) How does this automata react to the following strings?
+19. Describe the set of input string that take us from state 1 to state 4.
+20. What is more powerful, a Turing Machine or a FSA?
+21. Can a FSA recognize strings of matching parentheses?
+22. Draw a FSA to recognize {"()" } only.
+23. Is there a finite state automaton that determines whether a given
+string has balanced parentheses?  Is there a push-down automaton that
+can solve this problem?
+24. What is the difference between FSM and PushDown Automaton - Which is
+more powerful? Why?
+25. Is there a limit to stack capacity in a pushdown Automaton?
+
+
+
+
+Architecture
+
+1. Why do we have a memory hierarchy?
+What are the typical layers?
+2. Why is pipelining useful? 
+Would a pipeline be useful for adding a pair of numbers? 
+Would it be useful for adding a stream of pairs of numbers? 
+Would it be useful for instruction execution? Why?
+3. What are the characteristics of RISC architecture? 
+Is Pentium a RISC machine?
+4. Define microprogramming. What is it (good) for?
+What are the advantages and disadvantages of microprogramming?
+5. What are the most popular types of parallel machines?
+What are the characteristics of each?
+6. What is a vector processor?
+7. Give an example of an Interconnection Network?
+8. If a multiplication normally takes five CPU cycles, what is the
+speed up with a 5 instruction pipeline in the ideal case?
+9. What is cache memory and how does it work?
+10. What is pipelining in Machine Architecture?
+11. What is the difference between RISC and CISC architectures?
+12. What is a Pipeline architecture?
+13. How much faster can a 4 step pipeline make a processor?
+14. How does a pipeline function?
+
+
+
+Algorithms
+
+1. Give a sketch of Merge-sort. Prove its time complexity.
+2. Give a sketch of Quick-sort. Prove its time complexity.
+What would be the average and worst case running time for this algorithm?
+3. Give a sketch of Heap-sort. Prove its time complexity.
+4. Give a sketch of Selection-sort. Prove its time complexity.
+5. Create a search tree using the following numbers.
+What is the time complexity of find(x) in a search tree?
+What is the time complexity of find(x) in an AVL tree?
+6. Give a sketch of Dijkstra's Algorithm. Prove its time complexity.
+7. Give a sketch of Prim's Algorithm. Prove its time complexity.
+8. What is an NP-complete problem? Give an example. 
+What is the time complexity of Traveling Salesman problem?
+What is a nondeterministic machine?
+9. What is a B-tree? 
+What is the difference between a B-tree and a binary tree?
+10. What is a dictionary data structure?
+11. What is a hash table? Is this function useful as a hash function?
+12. What is a heap data structure? 
+13. Define the three-satisfiability problem?
+Why is this problem NP-complete?
+14. How do you control multiple access to data by concurrent processes?
+15. Which data structure would you use to hold bank transactions so they
+can be executed later in the same order as they arrived?
+16. What data structure would you use to hold ordered data so that it
+could be retrieved quickly?
+17. How do you improve the time to search for an item in a binary search
+tree?
+18. How long would a search for an item take in a complete binary tree of
+roughly 1024 items?
+19. What are good algorithms for searching for some data?
+How is the data organized for this search algorithm?
+What is the time complexity of this algorithm?
+20. Give an example of a good sorting algorithm?
+What is the time complexity of this algorithm?
+21.  Can you mention a bad sorting algorithm and what it's time
+complexity is?
+22. Name two sorting algorithm?
+Which would you use when there is a large number of items to sort? Why?
+23. What are the complexities of the algorithms?
+What does n mean in your formulas?
+24. What algorithm would you use to search for a message in a mailbox?
+25. Is any algorithm faster than a Binary Search algorithm?
+26. Describe how a binary search works.
+27. What is the difference between searching and sorting algorithms?
+28. If there are n items in an array how much time is needed for
+binary search?  For a linear search?
+29. What is the fastest data structure for finding names in an array?
+30. How fast is a tree search?
+31. What is a hash function?
+32. Suppose you have an array of strings.  What is the best algorithm to
+locate a given string?  What are the preconditions for this algorithm?
+What's the speed of execution of this algorithm?
+
+
+
+
+Software Engineering
+
+1. Describe the phases of software development process.
+2. What is re-usability? 
+3. What are the characteristics of OOP?
+4. What are the goals of system specification?
+5. Define modular design.
+6. What is a data flow diagram?
+Where is data flow useful in software design?
+7. What are different levels of testing?
+8. What are the differences between the Object Oriented and the
+Structured approach to software engineering?
+9.  What is encapsulation?
+10. What did you learn from the Software Engineering course?
+11. If you were going to modify your project how would do this?
+12. Describe four popular UML diagrams
+13. In a state chart what do the bubbles and arrows mean?
+What are the labels on the arrows?
+14. How do you draw a Finite State Machine in the UML?
+15. Describe inheritance?
+16. Describe aggregation.
+17. How does software engineering help you avoid bugs?
+Can we prevent bugs in design phase?
+18. How do you prevent conflicts between different users viewing and
+updating the same project?
+
+
+
+
+Operating Systems
+
+1. Give an example of a deadlock?
+What are deadlock conditions?
+2. Define distributed OS.
+Define distributed DB management system.
+3. What are the difficulties encountered in distributed scheduling
+algorithms?
+4. What is a virtual machine? 
+Give the architecture of a virtual machine?
+5. What is a system call? 
+6. What is the difference between a process and a thread?
+What is a process control block (PCB)? What information does it save?
+What is a thread control block (TCB)? What information does it save?
+7. Why is multi-threading important? 
+Give an example of an application where multi-threading is not advantageous.
+8. What is a critical section? 
+What is a semaphore?
+9. Define virtual memory? How does it work?
+What is the difference between paging and segmentation?
+10. Describe FIFO and LRU page replacement algorithms.
+11. What is the difference between RPC and RMI?
+12. WHat is IPC?
+13. Within an operating systems, what do we use to make sure that
+concurrent processes do not update the same data at the same time?
+14. How do we handle multiple accesses to a data base?
+15. What would happen if we tried to update some data while
+it is being viewed?
+16. Name one way an Operating System implements mutual exclusion?
+17. What is the function of a Cache between a CPU and primary memory?
+18. When I need to access data in primary memory do I always have to read
+the memory?
+19. When I write data to memory, do I send it to the cache, to memory or
+both?
+20. In an Operating System What is a page table?
+Are page tables fixed or variable size?
+21. What are semaphores used for?  Explain how a semaphore works.
+22. Give details - how is mutual exclusion accomplished?
+23. Is there a machine instruction to support semaphore operations?
+
